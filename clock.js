@@ -1,8 +1,8 @@
-const agee = prompt('How old are you');
+const clockContainer = document.querySelector(".js-clock");
+const clockTitle = clockContainer.querySelector("h1");
 
-if (agee>=19) {
-  alert("술먹어")
+function init () {
+
 }
-else{
-  alert("나가")
-}
+
+init();
